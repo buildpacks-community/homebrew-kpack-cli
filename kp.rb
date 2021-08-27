@@ -1,4 +1,4 @@
-class KpackCli < Formula
+class Kp < Formula
   desc "A command line interface for interacting with kpack."
   homepage "https://github.com/vmware-tanzu/kpack-cli"
   license "Apache-2.0"
