@@ -1,14 +1,14 @@
-class Kp < Formula
+  class Kp < Formula
   desc "A command line interface for interacting with kpack."
   homepage "https://github.com/vmware-tanzu/kpack-cli"
   license "Apache-2.0"
 
   if OS.mac?
-    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.3.1/kp-darwin-0.3.1"
-    sha256 "02cf3c10249bcd145f46b506d111d93334388c78d09defb71d1cbde875878b1d"
+    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.4.0/kp-darwin-0.4.0"
+    sha256 "9dafd60f41ac7f41e0f2ff19e6a71c7f0a9b8f3114774ae5c0857717fcd8d2e4"
   elsif OS.linux?
-    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.3.1/kp-linux-0.3.1"
-    sha256 "8fd058c563cadd46200a0985182fa393111261da185ec46f98bf600cdf68079d"
+    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.4.0/kp-linux-0.4.0"
+    sha256 "ec0bb0da97caaf8bd7a0af95eea28eed41329d2d038013474e7c5b3ec059403c"
   end
 
   depends_on :arch => :x86_64
@@ -21,3 +21,4 @@ class Kp < Formula
     system "#{bin}/kp", "version"
   end
 end
+
