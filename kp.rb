@@ -5,10 +5,10 @@
 
   if OS.mac?
     url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.5.0/kp-darwin-0.5.0"
-    sha256 "633b7e93b0d76714058a861c926c0c3592de686fa0054fb45f91e972e7e0d1bf"
+    sha256 "6ecabfda6312b08d5685e336da891fe2ad75940c75da0da397f32d69025aee2a"
   elsif OS.linux?
     url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.5.0/kp-linux-0.5.0"
-    sha256 "67168c5bbdb278e6e63a0f174e42bd87c92ffb203931e18a5daeed24c14e0899"
+    sha256 "0243a921ce14ea54a56c504c1b65c81961a1ce8274ff748af5373a5cf6a6216c"
   end
 
   depends_on :arch => :x86_64
