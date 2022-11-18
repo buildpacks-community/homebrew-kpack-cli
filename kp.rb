@@ -4,11 +4,11 @@
   license "Apache-2.0"
 
   if OS.mac?
-    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.7.1/kp-darwin-amd64-0.7.1"
-    sha256 "10574661005782f759e2e8b9aaad39ed08f7cd5ed031c5734130f83b57537f3d"
+    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.8.0/kp-darwin-amd64-0.8.0"
+    sha256 "9b8177adb6198545140f07cd37bb20b39d5afdd32f48ad839b76e4855a42ad3a"
   elsif OS.linux?
-    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.7.1/kp-linux-amd64-0.7.1"
-    sha256 "e0f14ecc390e6ec44fcadf898f81c0c2a6a9249edc5d04922dea23e7b4b04647"
+    url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.8.0/kp-linux-amd64-0.8.0"
+    sha256 "7b5f637b52540f55d42d12248547816f0d5c0fe4b815c7773a9ee710ae9ce68d"
   end
 
   depends_on :arch => :x86_64
