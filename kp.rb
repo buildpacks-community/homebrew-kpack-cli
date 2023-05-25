@@ -5,19 +5,19 @@
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.9.1/kp-darwin-amd64-0.9.1"
-      sha256 "64abbec5d4a0f5763b604a3e80cd4210721983a6ff3ddbce5cff0a2edbb4e0b3"
+      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.11.0/kp-darwin-amd64-0.11.0"
+      sha256 "30c3b47fcf855135b691f83c8b5758ead8885cc6382727448f913d1a7a70a956"
     elsif Hardware::CPU.arm?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.9.1/kp-darwin-arm64-0.9.1"
-      sha256 "224d8c95d8f8fb4ed950aec831d3c8dae2f404e3ce4dbf3b4378b1f7585f70ba"
+      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.11.0/kp-darwin-arm64-0.11.0"
+      sha256 "2e1fba1e071928bd930b2e79ddf4d354809bad8a8b42151ec555ed663b011f70"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.9.1/kp-linux-amd64-0.9.1"
-      sha256 "175d0818ed83e7d84f169dd74c26531d328cc0971937f2158a3adfefbcf57fdb"
+      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.11.0/kp-linux-amd64-0.11.0"
+      sha256 "027390cd13b6f68ad30bef7817213c1f25a2dd52fef99926e5e5cf8cbcad8ade"
     elsif Hardware::CPU.arm?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.9.1/kp-linux-arm64-0.9.1"
-      sha256 "bc3034177cbf8a02e26ca0aa12d521efb5fb830d856448e9bfbb34992548fce6"
+      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.11.0/kp-linux-arm64-0.11.0"
+      sha256 "710f072220005704d8cb4fb04bc9c229b14e30d30bbab3ae439a39056412b94d"
     end
   end
 
