@@ -1,23 +1,24 @@
-  class Kp < Formula
+class Kp < Formula
   desc "A command line interface for interacting with kpack."
-  homepage "https://github.com/vmware-tanzu/kpack-cli"
+  homepage "https://github.com/buildpacks-community/kpack-cli"
+  version "0.12.1"
   license "Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.12.0/kp-darwin-amd64-0.12.0"
-      sha256 "fe398d4b239259d6f3db80f563993bfddee120cd0d370b234d25954f56fe2440"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-amd64-0.12.1"
+      sha256 "781691da62f5e12b32cec62b952554d9602bcef169bb2c531a684c77fb940908"
     elsif Hardware::CPU.arm?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.12.0/kp-darwin-arm64-0.12.0"
-      sha256 "8e03b146abb2598d4863deae8f5e51ed1f54f15e0d59903d6f05973f15a12052"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-arm64-0.12.1"
+      sha256 "87370a7ea0311db8fb8bcd17a7bdfc1af94b6ec2d90f48d103807a557e4d653e"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.12.0/kp-linux-amd64-0.12.0"
-      sha256 "b3a235f5aee19b26551249f095dfd2e0194497e24bb85f38106a24aef95dc3fb"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-amd64-0.12.1"
+      sha256 "7f82ac81c5b792334ee5e8ef13f65a6e88597afe852277bafe4ce693f2a14173"
     elsif Hardware::CPU.arm?
-      url "https://github.com/vmware-tanzu/kpack-cli/releases/download/v0.12.0/kp-linux-arm64-0.12.0"
-      sha256 "46cdec0ee95aaeb553a0ba7204876461d4aa2a70e07a4361934ab45ed43324d6"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-arm64-0.12.1"
+      sha256 "25d0fbd940258736bbea498a779d8bf72aaac40ed8617ebf3a8300a372796d66"
     end
   end
 
@@ -29,4 +30,3 @@
     system "#{bin}/kp", "version"
   end
 end
-
