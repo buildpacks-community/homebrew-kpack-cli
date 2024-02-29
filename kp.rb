@@ -1,24 +1,24 @@
 class Kp < Formula
   desc "A command line interface for interacting with kpack."
   homepage "https://github.com/buildpacks-community/kpack-cli"
-  version "0.12.1"
+  version "0.13.0"
   license "Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-amd64-0.12.1"
-      sha256 "781691da62f5e12b32cec62b952554d9602bcef169bb2c531a684c77fb940908"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.0/kp-darwin-amd64-0.13.0"
+      sha256 "fd621c0bba78abece675fbe91343b63c8b3db6f40b27bb859c83ebdfcb979723"
     elsif Hardware::CPU.arm?
-      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-arm64-0.12.1"
-      sha256 "87370a7ea0311db8fb8bcd17a7bdfc1af94b6ec2d90f48d103807a557e4d653e"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.0/kp-darwin-arm64-0.13.0"
+      sha256 "bd243696d54154bfd93b1708d90acac9f68c48b09658f58ff455d4fdb4a7c56f"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-amd64-0.12.1"
-      sha256 "7f82ac81c5b792334ee5e8ef13f65a6e88597afe852277bafe4ce693f2a14173"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.0/kp-linux-amd64-0.13.0"
+      sha256 "52f0c927a1350f4f1bb281575ec246f406fb96aa69dc974ed10a2fe52c538158"
     elsif Hardware::CPU.arm?
-      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-arm64-0.12.1"
-      sha256 "25d0fbd940258736bbea498a779d8bf72aaac40ed8617ebf3a8300a372796d66"
+      url "https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.0/kp-linux-arm64-0.13.0"
+      sha256 "a4d5cd0ec8187945c098b450a617ac86bb6aa062f517ebb6c1b66f1d8d7e9bc2"
     end
   end
 
