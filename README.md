@@ -2,12 +2,12 @@
 # homebrew-kpack-cli
 
 ## Overview
-This is the homebrew tap for the [kpack-cli](https://github.com/vmware-tanzu/kpack-cli). [Homebrew](https://brew.sh/) is required for use.
+This is the homebrew tap for the [kpack-cli](https://github.com/buildpacks-community/kpack-cli). [Homebrew](https://brew.sh/) is required for use.
 
 ## Documentation
-`brew install vmware-tanzu/kpack-cli/kp`
+`brew install buildpacks-community/kpack-cli/kp`
 
-Or `brew tap vmware-tanzu/kpack-cli` and then `brew install kp`
+Or `brew tap buildpacks-community/kpack-cli` and then `brew install kp`
 
 ## Contributing
 
