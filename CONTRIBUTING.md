@@ -17,7 +17,7 @@ This is a rough outline of what a contributor's workflow looks like:
 Example:
 
 ``` shell
-git remote add upstream https://github.com/vmware/homebrew-kpack-cli.git
+git remote add upstream https://github.com/buildpacks-community/homebrew-kpack-cli.git
 git checkout -b my-new-feature main
 git commit -a
 git push origin my-new-feature
@@ -25,7 +25,7 @@ git push origin my-new-feature
 
 ### Staying In Sync With Upstream
 
-When your branch gets out of sync with the vmware/main branch, use the following to update:
+When your branch gets out of sync with the upstream/main branch, use the following to update:
 
 ``` shell
 git checkout my-new-feature
